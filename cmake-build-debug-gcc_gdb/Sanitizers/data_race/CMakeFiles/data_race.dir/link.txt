@@ -1,0 +1,1 @@
+/usr/local/bin/g++-7   -fsanitize=thread -fPIE -pie -g -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/data_race.dir/data_race_case.cpp.o  -o data_race 

@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CLion2018_2_Demo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Sanitizers\;CMake Files\Sanitizers\use_after_free\;CMake Files\Sanitizers\UMR\;CMake Files\Sanitizers\data_race\;CMake Files\Sanitizers\data_race_2\;CMake Files\Sanitizers\heap_buffer_overflow\;CMake Files\Sanitizers\stack_buffer_overflow\;CMake Files\Sanitizers\global_buffer_overflow\;CMake Files\CPP_Inspections\;CMake Files\CMake_project\;CMake Files\Debugger\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLion2018_2_Demo">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CLion2018_2_Demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 CLion2018_2_Demo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLion2018_2_Demo/fast">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CLion2018_2_Demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 CLion2018_2_Demo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="use_after_free">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/use_after_free/use_after_free" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/use_after_free"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/use_after_free/Makefile&quot;  VERBOSE=1 use_after_free"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/use_after_free/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/use_after_free/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/use_after_free/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="use_after_free/fast">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/use_after_free/use_after_free" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/use_after_free"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/use_after_free/Makefile&quot;  VERBOSE=1 use_after_free/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/use_after_free/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/use_after_free/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/use_after_free/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UMR">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/UMR/UMR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/UMR"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/UMR/Makefile&quot;  VERBOSE=1 UMR"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/UMR/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/UMR/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/UMR/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UMR/fast">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/UMR/UMR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/UMR"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/UMR/Makefile&quot;  VERBOSE=1 UMR/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/UMR/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/UMR/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/UMR/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_race">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race/data_race" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race/Makefile&quot;  VERBOSE=1 data_race"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_race/fast">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race/data_race" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race/Makefile&quot;  VERBOSE=1 data_race/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_race_2">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/data_race_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 data_race_2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_race_2/fast">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/data_race_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 data_race_2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heap_buffer_overflow">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/heap_buffer_overflow/heap_buffer_overflow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/heap_buffer_overflow"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/heap_buffer_overflow/Makefile&quot;  VERBOSE=1 heap_buffer_overflow"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/heap_buffer_overflow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/heap_buffer_overflow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/heap_buffer_overflow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heap_buffer_overflow/fast">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/heap_buffer_overflow/heap_buffer_overflow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/heap_buffer_overflow"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/heap_buffer_overflow/Makefile&quot;  VERBOSE=1 heap_buffer_overflow/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/heap_buffer_overflow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/heap_buffer_overflow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/heap_buffer_overflow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack_buffer_overflow">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/stack_buffer_overflow/stack_buffer_overflow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/stack_buffer_overflow"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/stack_buffer_overflow/Makefile&quot;  VERBOSE=1 stack_buffer_overflow"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/stack_buffer_overflow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/stack_buffer_overflow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/stack_buffer_overflow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack_buffer_overflow/fast">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/stack_buffer_overflow/stack_buffer_overflow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/stack_buffer_overflow"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/stack_buffer_overflow/Makefile&quot;  VERBOSE=1 stack_buffer_overflow/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/stack_buffer_overflow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/stack_buffer_overflow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/stack_buffer_overflow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="global_buffer_overflow">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/global_buffer_overflow/global_buffer_overflow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/global_buffer_overflow"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/global_buffer_overflow/Makefile&quot;  VERBOSE=1 global_buffer_overflow"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/global_buffer_overflow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/global_buffer_overflow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/global_buffer_overflow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="global_buffer_overflow/fast">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/global_buffer_overflow/global_buffer_overflow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/global_buffer_overflow"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/global_buffer_overflow/Makefile&quot;  VERBOSE=1 global_buffer_overflow/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/global_buffer_overflow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/global_buffer_overflow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/global_buffer_overflow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp_inspections">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CPP_Inspections/libcpp_inspections.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CPP_Inspections"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CPP_Inspections/Makefile&quot;  VERBOSE=1 cpp_inspections"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CPP_Inspections/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CPP_Inspections/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CPP_Inspections/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp_inspections/fast">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CPP_Inspections/libcpp_inspections.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CPP_Inspections"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CPP_Inspections/Makefile&quot;  VERBOSE=1 cpp_inspections/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CPP_Inspections/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CPP_Inspections/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CPP_Inspections/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game_demo">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CMake_project/game_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CMake_project"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CMake_project/Makefile&quot;  VERBOSE=1 game_demo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CMake_project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CMake_project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CMake_project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game_demo/fast">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CMake_project/game_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CMake_project"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CMake_project/Makefile&quot;  VERBOSE=1 game_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CMake_project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CMake_project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/CMake_project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="debug_sample_lldb">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/debug_sample_lldb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 debug_sample_lldb"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="debug_sample_lldb/fast">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/debug_sample_lldb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 debug_sample_lldb/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="debug_sample_gdb">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/debug_sample_gdb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 debug_sample_gdb"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="debug_sample_gdb/fast">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/debug_sample_gdb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 debug_sample_gdb/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Debugger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/CMake_project/demo.cpp">
+			<Option target="game_demo"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/CPP_Inspections/argument_selection_inspection.cpp">
+			<Option target="cpp_inspections"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/CPP_Inspections/value_escape_local_scope.cpp">
+			<Option target="cpp_inspections"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Debugger/debug_sample_gdb.cpp">
+			<Option target="debug_sample_gdb"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Debugger/debug_sample_lldb.cpp">
+			<Option target="debug_sample_lldb"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/UMR/memory_error_case.cpp">
+			<Option target="UMR"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/data_race/data_race_case.cpp">
+			<Option target="data_race"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/data_race_2/data_race_case2.cpp">
+			<Option target="data_race_2"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/global_buffer_overflow/global_buffer_overflow_case.cpp">
+			<Option target="global_buffer_overflow"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/heap_buffer_overflow/heap_buffer_overflow_case.cpp">
+			<Option target="heap_buffer_overflow"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/stack_buffer_overflow/stack_buffer_overflow_case.cpp">
+			<Option target="stack_buffer_overflow"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/use_after_free/use_after_free_case.cpp">
+			<Option target="use_after_free"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/main.cpp">
+			<Option target="CLion2018_2_Demo"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/use_after_free/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\use_after_free\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/UMR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\UMR\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/data_race/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\data_race\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/data_race_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\data_race_2\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/heap_buffer_overflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\heap_buffer_overflow\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/stack_buffer_overflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\stack_buffer_overflow\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/global_buffer_overflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\global_buffer_overflow\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/CPP_Inspections/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CPP_Inspections\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/CMake_project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CMake_project\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Debugger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Debugger\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

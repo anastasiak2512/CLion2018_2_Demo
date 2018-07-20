@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="data_race_2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Sanitizers\;CMake Files\Sanitizers\use_after_free\;CMake Files\Sanitizers\UMR\;CMake Files\Sanitizers\data_race\;CMake Files\Sanitizers\data_race_2\;CMake Files\Sanitizers\heap_buffer_overflow\;CMake Files\Sanitizers\stack_buffer_overflow\;CMake Files\Sanitizers\global_buffer_overflow\;CMake Files\CPP_Inspections\;CMake Files\CMake_project\;CMake Files\Debugger\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_race_2">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/data_race_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 data_race_2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_race_2/fast">
+				<Option output="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/data_race_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 data_race_2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/cmake-build-debug-gcc_gdb/Sanitizers/data_race_2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/data_race_2/data_race_case2.cpp">
+			<Option target="data_race_2"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/use_after_free/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\use_after_free\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/UMR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\UMR\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/data_race/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\data_race\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/data_race_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\data_race_2\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/heap_buffer_overflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\heap_buffer_overflow\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/stack_buffer_overflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\stack_buffer_overflow\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Sanitizers/global_buffer_overflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sanitizers\global_buffer_overflow\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/CPP_Inspections/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CPP_Inspections\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/CMake_project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CMake_project\"/>
+		</Unit>
+		<Unit filename="/Users/anastasiakazakova/ClionProjects/CLion2018.2_Demo/Debugger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Debugger\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

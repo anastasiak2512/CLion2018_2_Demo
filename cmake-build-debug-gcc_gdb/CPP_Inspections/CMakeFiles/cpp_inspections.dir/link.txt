@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcpp_inspections.a  CMakeFiles/cpp_inspections.dir/argument_selection_inspection.cpp.o CMakeFiles/cpp_inspections.dir/value_escape_local_scope.cpp.o
+/usr/bin/ranlib libcpp_inspections.a

@@ -1,0 +1,3 @@
+
+add_executable(debug_sample_gdb debug_sample_gdb.cpp)
+add_executable(debug_sample_lldb debug_sample_lldb.cpp)
