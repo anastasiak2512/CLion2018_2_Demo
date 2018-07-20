@@ -2,8 +2,8 @@
 Demo project for CLion 2018.2 for giving new features a try.
 
 * C++ language support:
-    * An experimental clangd-based C++ language engine complements CLion’s own C++ language engine, helping to highlight code errors and warnings in the editor.
-    * A new inspection detects situations when arguments of the same type are passed to a function in the wrong order.
+    * An experimental clangd-based C++ language engine complements CLion’s own C++ language engine (_on_ by default on Linux and macOS), helping to highlight code errors and warnings in the editor.
+    * A new inspection detects situations when arguments of the same type are passed to a function in the wrong order (requires clangd-based language engine).
 * Project models:
     * Gradle C++ and compilation database formats are now available alongside the CMake project model in CLion. Full code insight is provided for both.
     * For CMake, CLion now automatically treats included headers and source files as project files.
